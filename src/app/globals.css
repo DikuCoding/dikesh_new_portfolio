@@ -21,4 +21,17 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+
+  margin: 0;
+    overflow-x: hidden;
 }
+/* Global Fix for Box Sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
