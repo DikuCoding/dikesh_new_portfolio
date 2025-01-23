@@ -5,7 +5,7 @@
 }
 .navouter{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     padding: 10px;
     z-index: 100;
@@ -47,6 +47,7 @@
     z-index: 1000;
     justify-content: center;
     align-items: center;
+    margin-left: 60vw;
 }
 .nav_toggler span{
     height: 2px;
